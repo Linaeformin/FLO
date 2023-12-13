@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="song_like_iv_layout" type="id" />
+    <item name="song_like_iv" type="id" />
+    <item name="song_unlike_iv" type="id" />
+    <item name="song_progress_sb" type="id" />
+</resources>

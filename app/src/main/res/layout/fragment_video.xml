@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/video_iuMV_iv"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_video_exp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/video_iuMV_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="[MV] LILAC"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="23dp"
+            app:layout_constraintStart_toStartOf="@id/video_iuMV_iv"
+            app:layout_constraintTop_toBottomOf="@id/video_iuMV_iv" />
+        <TextView
+            android:id="@+id/video_iu_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이유 (IU) | 2021.03.26"
+            android:textSize="10sp"
+            android:layout_marginStart="23dp"
+            app:layout_constraintStart_toStartOf="@id/video_iuMV_iv"
+            app:layout_constraintTop_toBottomOf="@id/video_iuMV_tv" />
+
+        <ImageView
+            android:id="@+id/video_iuMV2_iv"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_video_exp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/video_iu_tv" />
+
+        <TextView
+            android:id="@+id/video_iuMV2_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="[MV] LILAC"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="23dp"
+            app:layout_constraintStart_toStartOf="@id/video_iuMV2_iv"
+            app:layout_constraintTop_toBottomOf="@id/video_iuMV2_iv" />
+        <TextView
+            android:id="@+id/video_iu2_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이유 (IU) | 2021.03.26"
+            android:textSize="10sp"
+            android:layout_marginStart="23dp"
+            app:layout_constraintStart_toStartOf="@id/video_iuMV2_iv"
+            app:layout_constraintTop_toBottomOf="@id/video_iuMV2_tv" />
+
+        <ImageView
+            android:id="@+id/video_iuMV3_iv"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/img_video_exp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/video_iu2_tv" />
+
+        <TextView
+            android:id="@+id/video_iuMV3_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="[MV] LILAC"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="23dp"
+            app:layout_constraintStart_toStartOf="@id/video_iuMV3_iv"
+            app:layout_constraintTop_toBottomOf="@id/video_iuMV3_iv" />
+        <TextView
+            android:id="@+id/video_iu3_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이유 (IU) | 2021.03.26"
+            android:textSize="10sp"
+            android:layout_marginStart="23dp"
+            app:layout_constraintStart_toStartOf="@id/video_iuMV3_iv"
+            app:layout_constraintTop_toBottomOf="@id/video_iuMV3_tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
